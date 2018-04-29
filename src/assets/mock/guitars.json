@@ -1,0 +1,10 @@
+{
+    "guitars": [
+        {
+            "id": 1,
+            "label": "ESP/LTD KH-WZ",
+            "description": "Kirk Hammett White Zombie guitar LTD guitar from ESP compagnie",
+            "price": 1499
+        }
+    ]
+}
