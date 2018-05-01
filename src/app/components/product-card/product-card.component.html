@@ -1,0 +1,28 @@
+<div fxLayout="row wrap"  fxLayoutGap="10px" fxLayoutAlign="space-around start" *ngIf="products$ | async as products else noData">
+  <mat-card class="example-card" *ngFor="let p of products"> 
+    <mat-card-header>
+      <mat-card-title><b>{{p.brand}} {{p.label}}</b></mat-card-title>
+      <mat-card-subtitle>{{p.description}}</mat-card-subtitle>
+    </mat-card-header>
+    <img #picture mat-card-image src="{{p.pictures_url[0]}}">
+    
+    <mat-divider></mat-divider>
+    <mat-card-actions>
+      <span><b>{{p.price | currency:p.currency_code:symbol}}</b></span> 
+      <button mat-raised-button color="accent">PURCHASE</button>
+      <button style="margin-right:5px"
+      *ngFor="let src of p.pictures_url; let i = index"
+      (click)="picture.src=src"
+       mat-mini-fab 
+       color="accent">{{i+1}}</button>
+    </mat-card-actions>
+  </mat-card>
+
+  
+</div>
+
+<ng-template #noData>
+  <div fxLayout="row" fxLayoutAlign="center center">
+    <mat-spinner color="accent"></mat-spinner>
+  </div>
+</ng-template>

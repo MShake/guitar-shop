@@ -25,6 +25,58 @@
                 "https://dk1xgl0d43mu1.cloudfront.net/user_files/esp/product_images/000/014/966/xlarge.png?1418070139",
                 "https://dk1xgl0d43mu1.cloudfront.net/user_files/esp/product_images/000/014/964/xlarge.png?1418070131"
             ] 
+        },
+        {
+            "id": 3,
+            "label": "KH-2 VINTAGE DISTRESSED BLACK",
+            "category": "guitar",
+            "brand": "ESP",
+            "description": "Kirk Hammett signature guitar",
+            "price": 2400,
+            "currency_code": "EUR",
+            "pictures_url": [
+                "https://dk1xgl0d43mu1.cloudfront.net/user_files/esp/product_images/000/025/228/xlarge.png?1520381797",
+                "https://dk1xgl0d43mu1.cloudfront.net/user_files/esp/product_images/000/025/227/xlarge.png?1520381754"
+            ] 
+        },
+        {
+            "id": 4,
+            "label": "LTD KH DEMONOLOGY",
+            "category": "guitar",
+            "brand": "ESP",
+            "description": "Kirk Hammett signature guitar",
+            "price": 1450,
+            "currency_code": "EUR",
+            "pictures_url": [
+                "https://dk1xgl0d43mu1.cloudfront.net/user_files/esp/product_images/000/023/980/xlarge.png?1494547315",
+                "https://dk1xgl0d43mu1.cloudfront.net/user_files/esp/product_images/000/023/976/xlarge.png?1494547313"
+            ] 
+        },
+        {
+            "id": 5,
+            "label": "KH-602 PURPLE SPARKLE",
+            "category": "guitar",
+            "brand": "LTD",
+            "description": "Kirk Hammett signature guitar",
+            "price": 1450,
+            "currency_code": "EUR",
+            "pictures_url": [
+                "https://dk1xgl0d43mu1.cloudfront.net/user_files/esp/product_images/000/025/007/xlarge.?1514996839",
+                "https://dk1xgl0d43mu1.cloudfront.net/user_files/esp/product_images/000/025/005/xlarge.?1514996837"
+            ] 
+        },
+        {
+            "id": 6,
+            "label": "KH-202 BLACK",
+            "category": "guitar",
+            "brand": "LTD",
+            "description": "Kirk Hammett signature guitar",
+            "price": 1450,
+            "currency_code": "EUR",
+            "pictures_url": [
+                "https://dk1xgl0d43mu1.cloudfront.net/user_files/esp/product_images/000/023/218/xlarge.png?1484773738",
+                "https://dk1xgl0d43mu1.cloudfront.net/user_files/esp/product_images/000/023/214/xlarge.png?1484773735"
+            ] 
         }
     ]
 }
