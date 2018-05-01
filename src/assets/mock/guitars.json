@@ -1,10 +1,30 @@
 {
-    "guitars": [
+    "products": [
         {
             "id": 1,
-            "label": "ESP/LTD KH-WZ",
-            "description": "Kirk Hammett White Zombie guitar LTD guitar from ESP compagnie",
-            "price": 1499
+            "label": "KH-WZ",
+            "category": "guitar",
+            "brand": "ESP",
+            "description": "Kirk Hammett signature White Zombie guitar",
+            "price": 1500,
+            "currency_code": "EUR",
+            "pictures_url": [
+                "https://dk1xgl0d43mu1.cloudfront.net/user_files/esp/product_images/000/009/960/xlarge.png?1389979945",
+                "https://dk1xgl0d43mu1.cloudfront.net/user_files/esp/product_images/000/009/958/xlarge.png?1389979943"
+            ] 
+        },
+        {
+            "id": 2,
+            "label": "SNAKEBYTE SNOW WHITE",
+            "category": "guitar",
+            "brand": "ESP",
+            "description": "James Hetfield Explorer signature guitar",
+            "price": 1580,
+            "currency_code": "EUR",
+            "pictures_url": [
+                "https://dk1xgl0d43mu1.cloudfront.net/user_files/esp/product_images/000/014/966/xlarge.png?1418070139",
+                "https://dk1xgl0d43mu1.cloudfront.net/user_files/esp/product_images/000/014/964/xlarge.png?1418070131"
+            ] 
         }
     ]
 }
